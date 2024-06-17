@@ -1,4 +1,4 @@
-[gd_resource type="Theme" load_steps=9 format=3 uid="uid://c43ovurvret3n"]
+[gd_resource type="Theme" load_steps=11 format=3 uid="uid://c43ovurvret3n"]
 
 [ext_resource type="Texture2D" uid="uid://d14mofajaivx5" path="res://assets/GUI.png" id="1_1tyam"]
 [ext_resource type="FontFile" uid="uid://b5lfw3jshgara" path="res://assets/fonts/MinimalPixel v2.ttf" id="1_7vxos"]
@@ -40,6 +40,16 @@ texture_margin_right = 13.9283
 texture_margin_bottom = 14.3635
 region_rect = Rect2(2, 34, 44, 44)
 
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_26a1p"]
+texture = ExtResource("1_1tyam")
+texture_margin_left = 1.19696
+texture_margin_top = 2.8727
+texture_margin_right = 5.74541
+texture_margin_bottom = 2.39392
+region_rect = Rect2(135, 20, 52, 7)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_7lh6f"]
+
 [resource]
 Button/font_sizes/font_size = 7
 Button/fonts/font = ExtResource("1_7vxos")
@@ -51,3 +61,7 @@ Label/font_sizes/font_size = 14
 Label/fonts/font = ExtResource("1_7vxos")
 Label/styles/normal = SubResource("StyleBoxTexture_xrasy")
 PanelContainer/styles/panel = SubResource("StyleBoxTexture_21kts")
+ProgressBar/font_sizes/font_size = 7
+ProgressBar/fonts/font = ExtResource("1_7vxos")
+ProgressBar/styles/background = SubResource("StyleBoxTexture_26a1p")
+ProgressBar/styles/fill = SubResource("StyleBoxTexture_7lh6f")

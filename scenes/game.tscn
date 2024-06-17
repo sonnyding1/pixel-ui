@@ -40,3 +40,8 @@ text = "Load"
 [node name="Button3" type="Button" parent="CanvasLayer/PanelContainer/VBoxContainer"]
 layout_mode = 2
 text = "Exit"
+
+[node name="ProgressBar" type="ProgressBar" parent="CanvasLayer"]
+offset_right = 180.0
+offset_bottom = 12.2666
+theme = ExtResource("1_kuxp3")
