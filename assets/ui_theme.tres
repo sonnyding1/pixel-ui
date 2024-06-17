@@ -1,0 +1,53 @@
+[gd_resource type="Theme" load_steps=9 format=3 uid="uid://c43ovurvret3n"]
+
+[ext_resource type="Texture2D" uid="uid://d14mofajaivx5" path="res://assets/GUI.png" id="1_1tyam"]
+[ext_resource type="FontFile" uid="uid://b5lfw3jshgara" path="res://assets/fonts/MinimalPixel v2.ttf" id="1_7vxos"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_0py8v"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_cg27j"]
+texture = ExtResource("1_1tyam")
+texture_margin_left = 6.0
+texture_margin_top = 4.0
+texture_margin_right = 6.0
+texture_margin_bottom = 6.0
+region_rect = Rect2(113, 81, 30, 14)
+modulate_color = Color(0.831373, 0.831373, 0.831373, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_b3iej"]
+texture = ExtResource("1_1tyam")
+texture_margin_left = 6.0
+texture_margin_top = 4.0
+texture_margin_right = 6.0
+texture_margin_bottom = 6.0
+region_rect = Rect2(113, 81, 30, 14)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_tthc7"]
+texture = ExtResource("1_1tyam")
+texture_margin_left = 6.0
+texture_margin_top = 4.0
+texture_margin_right = 6.0
+texture_margin_bottom = 4.0
+region_rect = Rect2(113, 98, 30, 13)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_xrasy"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_21kts"]
+texture = ExtResource("1_1tyam")
+texture_margin_left = 14.3635
+texture_margin_top = 13.9283
+texture_margin_right = 13.9283
+texture_margin_bottom = 14.3635
+region_rect = Rect2(2, 34, 44, 44)
+
+[resource]
+Button/font_sizes/font_size = 7
+Button/fonts/font = ExtResource("1_7vxos")
+Button/styles/focus = SubResource("StyleBoxEmpty_0py8v")
+Button/styles/hover = SubResource("StyleBoxTexture_cg27j")
+Button/styles/normal = SubResource("StyleBoxTexture_b3iej")
+Button/styles/pressed = SubResource("StyleBoxTexture_tthc7")
+Label/font_sizes/font_size = 14
+Label/fonts/font = ExtResource("1_7vxos")
+Label/styles/normal = SubResource("StyleBoxTexture_xrasy")
+PanelContainer/styles/panel = SubResource("StyleBoxTexture_21kts")
